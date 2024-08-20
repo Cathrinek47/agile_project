@@ -1,30 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ee12f16-cfc1-429b-b6e7-f0a880bdfb3c" name="Changes" comment="" />
+    <list default="true" id="2ee12f16-cfc1-429b-b6e7-f0a880bdfb3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/projects/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/models/project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/models/project_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/project_file_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/project_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/utils/upload_file_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/views/project_file_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/projects/views/project_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/routers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/priorities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/statuses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/models/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/tag_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/task_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/utils/set_end_of_month.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/views/tag_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/views/task_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/choices/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/choices/positions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agile/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/agile/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agile/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cathrinek47&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cathrinek47/agile_project.git&quot;,
+    &quot;accountId&quot;: &quot;5e19d5d0-025b-4519-9092-eb9413ec4d37&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kgXNCxJRt20X3mL47Kcb7YcxI7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
