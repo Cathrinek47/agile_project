@@ -1,5 +1,6 @@
 from rest_framework.request import Request
 from rest_framework.response import Response
+from django.http import FileResponse
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.generics import get_object_or_404, ListCreateAPIView, RetrieveDestroyAPIView
@@ -76,6 +77,19 @@ class ProjectFileDetailGenericView(RetrieveDestroyAPIView):
             status=status.HTTP_200_OK
         )
 
+
+class DownloadProjectFileView(APIView):
+    def get_object(self):
+        return get_object_or_404(ProjectFile, pk=self.kwargs['pk'])
+
+    def get(self, request: Request, *args, **kwargs) -> FileResponse:
+        project_file = self.get_object()
+        file_handle = project_file.file_path.open()
+
+        response = FileResponse(file_handle, content_type='application/octet-stream')
+        response['Content-Disposition'] = f'attachment; filename="{project_file.file_name}"'
+
+        return response
 
 ###########################################################
 class ProjectFileListAPIView(APIView):

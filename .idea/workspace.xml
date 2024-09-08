@@ -5,45 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee12f16-cfc1-429b-b6e7-f0a880bdfb3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/projects/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/models/project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/models/project_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/project_file_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/serializers/project_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/utils/upload_file_helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/views/project_file_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/projects/views/project_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/routers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/priorities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/choices/statuses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/models/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/tag_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/serializers/task_serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/utils/set_end_of_month.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/views/tag_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tasks/views/task_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/choices/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/choices/positions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/tests/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tasks/tests/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/serializers/user_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/tests/user_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/views/user_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agile/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/agile/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agile/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tasks/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tasks/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tasks/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/projects/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/projects/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/projects/views/project_file_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/projects/views/project_file_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/serializers/task_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/serializers/task_serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tasks/views/task_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/views/task_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +66,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for tags.TagsTestCase.executor": "Run",
+    "Python tests.Python tests for tags.TagsTestCase.test_home_page.executor": "Run",
+    "Python tests.Python tests for user_tests.RegisterUserViewTestCase.executor": "Run",
+    "Python tests.Python tests for user_tests.UserDetailViewTestCase.executor": "Run",
+    "Python tests.Python tests for user_tests.UserDetailViewTestCase.test_user_detail_success.executor": "Run",
+    "Python tests.Python tests for user_tests.UserListViewTestCase.executor": "Run",
+    "Python tests.Python tests for users.UserListViewTestCase.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for user_tests.UserListViewTestCase">
+    <configuration name="Python tests for apps.users.tests.user_tests.UserListViewTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="agile_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;apps.users.tests.user_tests.UserListViewTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for user_tests.RegisterUserViewTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="agile_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_tests.RegisterUserViewTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for user_tests.UserDetailViewTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="agile_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_tests.UserDetailViewTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for user_tests.UserDetailViewTestCase.test_user_detail_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="agile_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_tests.UserDetailViewTestCase.test_user_detail_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for user_tests.UserListViewTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="agile_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_tests.UserListViewTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for apps.users.tests.user_tests.UserListViewTestCase" />
+      <item itemvalue="Python tests.Python tests for user_tests.RegisterUserViewTestCase" />
+      <item itemvalue="Python tests.Python tests for user_tests.UserDetailViewTestCase" />
+      <item itemvalue="Python tests.Python tests for user_tests.UserDetailViewTestCase.test_user_detail_success" />
+      <item itemvalue="Python tests.Python tests for user_tests.UserListViewTestCase" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for user_tests.UserListViewTestCase" />
+        <item itemvalue="Python tests.Python tests for user_tests.RegisterUserViewTestCase" />
+        <item itemvalue="Python tests.Python tests for user_tests.UserDetailViewTestCase" />
+        <item itemvalue="Python tests.Python tests for user_tests.UserDetailViewTestCase.test_user_detail_success" />
+        <item itemvalue="Python tests.Python tests for apps.users.tests.user_tests.UserListViewTestCase" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

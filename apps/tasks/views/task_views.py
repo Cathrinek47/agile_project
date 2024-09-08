@@ -12,6 +12,10 @@ from apps.tasks.serializers.task_serializer import (
 from django.shortcuts import get_object_or_404
 
 
+
+
+
+
 class StandardResultsSetPagination(PageNumberPagination):
     page_size = 5
     page_size_query_param = 'page_size'
@@ -117,7 +121,7 @@ class TaskDetailAPIView(APIView):
 
         return Response(
             data={
-                "message": "The task has been deleted."
+                "message": "Tag was deleted successfully"
             },
             status=status.HTTP_204_NO_CONTENT
         )
